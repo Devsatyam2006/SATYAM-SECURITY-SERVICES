@@ -1,0 +1,158 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Satyam Security Services - Providing top-notch security solutions." name="description"/>
+  <meta content="Security, Services, Satyam, Protection" name="keywords"/>
+  <title>
+   Satyam Security Services
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-900 text-gray-200">
+  <nav class="bg-gray-800 p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <a class="text-gray-400 font-bold text-2xl" href="#">
+     Satyam Security Services
+    </a>
+    <button class="text-white lg:hidden">
+     <i class="fas fa-bars">
+     </i>
+    </button>
+    <div class="hidden lg:flex space-x-4">
+     <a class="text-white text-lg hover:text-gray-400" href="#">
+      Home
+     </a>
+     <a class="text-white text-lg hover:text-gray-400" href="#">
+      Services
+     </a>
+     <a class="text-white text-lg hover:text-gray-400" href="#">
+      Pricing
+     </a>
+    </div>
+   </div>
+  </nav>
+  <div class="container mx-auto mt-10 text-center">
+   <h1 class="text-4xl font-bold text-yellow-500">
+    Welcome to Satyam Security Services
+   </h1>
+   <img alt="A professional security guard standing alert in front of a modern building" class="w-70 h-70 mt-6 mx-auto" height="400" src="https://storage.googleapis.com/a1aa/image/5qfNqkB9fqrjDEK1KuOTUSaV7zuOEqv80ScmLMJPgo4JQxfnA.jpg" width="400"/>
+  </div>
+  <div class="container mx-auto mt-10 text-center">
+   <h2 class="text-3xl text-yellow-500 underline">
+    Our Services
+   </h2>
+   <div class="flex flex-wrap justify-center mt-6">
+    <div class="bg-gray-700 border border-yellow-500 rounded-lg p-6 m-4 w-64 transform transition-transform hover:scale-105 cursor-pointer">
+     <img alt="A watchman in uniform patrolling an area" class="w-full h-32 object-cover rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/8MDSJRBOlSJNENjjTKY61e0Ze2f87qsIQvLjXmLVrftrAFffE.jpg" width="300"/>
+     <p class="text-yellow-500 font-bold mt-4">
+      Watchman
+     </p>
+     <p class="text-white mt-2">
+      Our watchmen are trained to provide vigilant and reliable security for residential and commercial properties.
+     </p>
+    </div>
+    <div class="bg-gray-700 border border-yellow-500 rounded-lg p-6 m-4 w-64 transform transition-transform hover:scale-105 cursor-pointer">
+     <img alt="A bouncer standing at the entrance of a club" class="w-full h-32 object-cover rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/XRtexbhfKWp0kkfFuESMYyOb60cdIiPpJb2LAjiJFXrPgifPB.jpg" width="300"/>
+     <p class="text-yellow-500 font-bold mt-4">
+      Bouncer
+     </p>
+     <p class="text-white mt-2">
+      Our bouncers ensure the safety and security of your events, maintaining order and handling any disturbances.
+     </p>
+    </div>
+    <div class="bg-gray-700 border border-yellow-500 rounded-lg p-6 m-4 w-64 transform transition-transform hover:scale-105 cursor-pointer">
+     <img alt="A professional driver in uniform standing next to a luxury car" class="w-full h-32 object-cover rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/NzZggc1ogkZBNl8jILm5gQeydiWsZY5ZeajoEQYivK8MQxfnA.jpg" width="300"/>
+     <p class="text-yellow-500 font-bold mt-4">
+      Driver
+     </p>
+     <p class="text-white mt-2">
+      Our drivers are experienced and professional, ensuring safe and timely transportation for our clients.
+     </p>
+    </div>
+    <div class="bg-gray-700 border border-yellow-500 rounded-lg p-6 m-4 w-64 transform transition-transform hover:scale-105 cursor-pointer">
+     <img alt="A housekeeping staff member cleaning a modern office space" class="w-full h-32 object-cover rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/ufo08z0SBWz9cChT79uvrZCxmDNTfNHpBigreUjCLZ8LgifPB.jpg" width="300"/>
+     <p class="text-yellow-500 font-bold mt-4">
+      Housekeeping
+     </p>
+     <p class="text-white mt-2">
+      Our housekeeping services ensure that your premises are clean, hygienic, and well-maintained.
+     </p>
+    </div>
+   </div>
+   <p class="mt-4 text-lg text-red-500">
+    Your safety is our priority. We offer a range of security services tailored to your needs.
+   </p>
+  </div>
+  <div class="bg-gray-700 w-full h-auto py-8">
+   <h4 class="text-center text-white text-lg mb-4">
+    Your Requirement
+   </h4>
+   <div class="container mx-auto">
+    <form class="max-w-lg mx-auto bg-gray-800 p-6 rounded-lg">
+     <div class="mb-4">
+      <label class="block text-white text-sm font-bold mb-2" for="email">
+       Email
+      </label>
+      <input class="w-full px-3 py-2 text-gray-900 rounded-lg" id="email" name="email" type="email" placeholder="Enter your email"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-white text-sm font-bold mb-2" for="phone">
+       Phone
+      </label>
+      <input class="w-full px-3 py-2 text-gray-900 rounded-lg" id="phone" name="phone" type="tel" placeholder="Enter your phone number"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-white text-sm font-bold mb-2" for="service">
+       Type of Service
+      </label>
+      <select class="w-full px-3 py-2 text-gray-900 rounded-lg" id="service" name="service">
+       <option value="watchman">
+        Watchman
+       </option>
+       <option value="bouncer">
+        Bouncer
+       </option>
+       <option value="driver">
+        Driver
+       </option>
+       <option value="housekeeping">
+        Housekeeping
+       </option>
+      </select>
+     </div>
+     <div class="mb-4">
+      <label class="block text-white text-sm font-bold mb-2" for="message">
+       Additional Information
+      </label>
+      <textarea class="w-full px-3 py-2 text-gray-900 rounded-lg" id="message" name="message" placeholder="Enter any additional information" rows="4">
+      </textarea>
+     </div>
+     <div class="text-center">
+      <button class="bg-yellow-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-yellow-600" type="submit">
+       Submit
+      </button>
+     </div>
+    </form>
+   </div>
+  </div>
+  <footer class="bg-gray-800 text-white text-center p-4 mt-10">
+   <p>
+    © 2023 Satyam Security Services. All rights reserved.
+   </p>
+   <p>
+    Contact us: info@satyamsecurity.com
+   </p>
+  </footer>
+ </body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</html>
